@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.fizolabs.mvp">
+	<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="30" />
+	<application android:label="MVPBuzz" android:fullBackupContent="@xml/auto_backup_rules" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round">
+		<activity android:name="microsoft.identity.client.BrowserTabActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="msauth" android:host="com.fizolabs.mvp/AvlqWgVzwpWojk8fpGXIZrw3oIQ%3D" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
